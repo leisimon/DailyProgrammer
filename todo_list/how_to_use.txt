@@ -1,0 +1,11 @@
+In the interpreter:
+
+>>> from todo_list import TodoList
+>>> mylist = TodoList()
+>>> mylist.add("1st item")
+>>> mylist.add("2nd item")
+>>> mylist.add("3rd item")
+>>> mylist.delete("2nd item")
+>>> mylist.view()
+1st item
+3rd item
